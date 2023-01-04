@@ -33,7 +33,7 @@ spec:
         readinessProbe:
             httpGet:
               path: /
-              port: 8081
+              port: 8080
       securityContext:
         fsGroup: 111
       volumes:
